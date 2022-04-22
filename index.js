@@ -42,7 +42,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Describe project usage",
+        message: "Describe project usage:",
     },
     {
         type: "list",
@@ -60,27 +60,22 @@ const questions = [
     {
         type: "input",
         name: "contibuting",
-        message: "Please list all contributors of this project",
+        message: "Please list all contributors of this project:",
     },
     {
         type: "input",
         name: "tests",
-        message: "what test have been done?",
-    },
-    {
-        type: "input",
-        name: "questions",
-        message: "Please include any potential questions",
+        message: "Tests you would like to include",
     },
     {
         type: "input",
         name: "email",
-        message: "Please enter your email",
+        message: "Please enter your email:",
     },
     {
         type: "input",
         name: "github",
-        message: "Please enter your github url",
+        message: "Please enter your github url:",
     },
 ];
 
